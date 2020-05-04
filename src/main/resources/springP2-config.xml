@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+
+	
+
+
+	<bean id="daoFile" class="com.diallo.poo.App3tierGit.dao.DaoFile">
+		<property name="filename" value="dataP2\\membresP2.xml" />
+	</bean>
+	
+	<bean id="metier" class="com.diallo.poo.App3tierGit.metier.Metier">
+		<property name="dao" ref="daoFile" />
+	</bean>
+	
+	<bean id="uiConsole" class="com.diallo.poo.App3tierGit.ui.UiConsole">
+		<property name="metier" ref="metier" />
+	</bean>
+
+	<bean></bean>
+	<bean></bean>
+	<bean></bean>
+</beans>

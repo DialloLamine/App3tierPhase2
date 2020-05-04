@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<person id="a7aa0ae7" name="Momo" maxBook="3" registrationDate="20/01/2020">
+		<book ref="a7aa0a88" rentalDate="28/04/2020"></book>
+		<book ref="a7aa0a99" rentalDate="25/04/2020"></book>
+	</person>
+	<person id="a7aa0ae7" name="Momo" maxBook="3" registrationDate="20/01/2020">
+		<book ref="a7aa12" rentalDate="01/05/2020" />
+		<book ref="a7a34" rentalDate="2/05/2020" />
+	</person>
+	<person id="a7aa0ae77" name="Momo" maxBook="3" registrationDate="20/01/2020">
+		<book ref="a7aa566" rentalDate="24/04/2020"></book>
+		<book ref="a7aa4321" rentalDate="30/04/2020"></book>
+	</person>
+	<person id="a7aa0ae333" name="Momo" maxBook="3" registrationDate="20/02/2020" />
+	<person id="a7aa0ae777" name="Momo" maxBook="3" registrationDate="20/03/2020" />
+	<person id="a7aa0ae9999" name="Momo" maxBook="3" registrationDate="20/01/2020" />
+
+</data>
